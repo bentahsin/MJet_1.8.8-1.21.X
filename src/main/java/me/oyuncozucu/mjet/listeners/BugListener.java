@@ -43,6 +43,18 @@ public class BugListener implements Listener {
             }
         }
     }
+    
+    @EventHandler
+    public void onInventoryClick(InventoryClickEvent e) {
+
+        Player player = (Player) e.getWhoClicked();
+        String itemName = MJet.getInstance().getConfig().getString("item-name");
+        if(e.getCurrentItem().getItemMeta().getDisplayName().equalsIgnoreCase(ChatColor.translateAlternateColorCodes('&', itemName))) {
+            e.setCancelled(true);
+            player.closeInventory();
+        }
+
+    }
 
 
 }
