@@ -1,0 +1,4 @@
+item-name: '&aJet'
+item-slot: 4
+enable-worlds:
+  - 'world'
