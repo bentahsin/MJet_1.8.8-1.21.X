@@ -1,7 +1,6 @@
 name: MJet
 version: '${project.version}'
 main: me.oyuncozucu.mjet.MJet
-api-version: 1.16
+api-version: 1.13
 commands:
   mjet:
-
