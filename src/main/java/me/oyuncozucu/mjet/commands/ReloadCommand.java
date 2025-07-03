@@ -2,7 +2,6 @@ package me.oyuncozucu.mjet.commands;
 
 import me.oyuncozucu.mjet.MJet;
 import org.bukkit.ChatColor;
-import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
